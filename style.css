@@ -110,20 +110,20 @@
     cursor: pointer;
     transition: .5s ease;
 }
-button:nth-child(1){
+.hire-btn{
     background: #5db9ee;
     color: #262525;
 }
-button:nth-child(2){
+.hire-btn:hover{
+    background: transparent;
+    color: #5db9ee;
+}
+.project-btn{
     background: transparent;
     color: #5db9ee;
     margin-left: 2rem;
 }
-button:nth-child(1):hover{
-    background: transparent;
-    color: #5db9ee;
-}
-button:nth-child(2):hover{
+.project-btn:hover{
     background: #5db9ee;
     color: #262525;
 }
